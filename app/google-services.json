@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "693580449727",
+    "firebase_url": "https://sbchs-complain-portal-database.firebaseio.com",
+    "project_id": "sbchs-complain-portal-database",
+    "storage_bucket": "sbchs-complain-portal-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693580449727:android:ffe78fd62b35b282b9030a",
+        "android_client_info": {
+          "package_name": "com.example.sbchscomplainportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693580449727-60hv26b45j3k113285phcq0kssqmd7ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sbchscomplainportal",
+            "certificate_hash": "3ad05c24933b0d5b7ef794f55d00601100e431ef"
+          }
+        },
+        {
+          "client_id": "693580449727-fl40t0fq9cuq71e6j81epkdgekfb7hut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIkNuSKDEy8Lad4qhCfw8jciOhi-5-qrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693580449727-fl40t0fq9cuq71e6j81epkdgekfb7hut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='SBCHS Complain Portal'
+include ':app'

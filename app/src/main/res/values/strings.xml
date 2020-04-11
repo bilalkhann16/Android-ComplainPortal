@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SBCHS Complain Portal</string>
+    <string name="Name">Name</string>
+    <string name="contact_number">contact_number</string>
+    <string name="email">email</string>
+    <string name="subject_of_complain">subject_of_complain</string>
+    <string name="complain">complain</string>
+    <string name="house_number">House Number</string>
+    <string name="Contact">Contact Number</string>
+    <string name="Email">Email</string>
+    <string name="Complain">Complain</string>
+    <string name="Subject">Subject</string>
+</resources>
