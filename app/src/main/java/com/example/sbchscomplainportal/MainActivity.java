@@ -3,8 +3,11 @@ package com.example.sbchscomplainportal;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,6 +27,24 @@ public class MainActivity extends AppCompatActivity {
     EditText inputname,email,inputnumber,subject,complain,house;
     Button submit;
     DatabaseReference reff;
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.about_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)  {
+        int id=item.getItemId();
+        if (id==R.id.aboutmenu){
+            Intent aboutsec=new Intent(MainActivity.this,aboutsection.class);
+            startActivity(aboutsec);
+            return true;
+        }
+        return true;
+    }
 
 
     @Override
@@ -75,4 +96,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
+
+
 }
